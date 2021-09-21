@@ -11,29 +11,26 @@
     font-family: "Poppins", sans-serif;
     color: #fff;
     margin: 0.5rem;
-    background: url(bg.jpg);
+    background: url(images/bg.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
     place-items: center;
     height: calc(100vh - 1rem);
   }
-  
   .container {
     max-width: 500px;
     padding: 2rem 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(17, 5, 5, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 5px;
   }
-  
   h1 {
     text-align: center;
     padding: 1rem;
     padding-top: 0;
   }
-  
   .list {
     position: relative;
     background-color: rgba(0, 0, 0, 0.1);
@@ -47,7 +44,6 @@
     margin-top: 1rem;
     overflow: hidden;
   }
-  
   .list:hover > i {
     background-color: #ea2027;
   }
