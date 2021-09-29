@@ -14,8 +14,7 @@ body{
     max-width:960%;
     margin:auto;
     padding:0 30px;
-    justify-content: center;
-    justify-self: center;
+   
     align-items: center;
 }
 #showcase{
